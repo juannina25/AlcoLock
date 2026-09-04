@@ -18,11 +18,11 @@
 
     <section class="screen active welcome" data-step="1">
       <img class="brand-image" src="static/img/logo-iesjcm-2026.png" alt="Perú y MINEDU">
-      <img class="alco-logo" src="/static/img/logo-alcolock.png" alt="AlcoLock">
+      <img class="alco-logo" src="static/img/logo-alcolock.png" alt="AlcoLock">
       <h1>AlcoLock</h1><p class="tagline">Sistema de prevención y<br>seguridad vial</p>
       <div class="hero-images">
-        <img class="hero-image bus-image" src="/static/img/bus.png" alt="Bus de transporte">
-        <!-- <img class="hero-image device-image" src="/static/img/alcolock.jpg" alt="Dispositivo AlcoLock"> -->
+        <img class="hero-image bus-image" src="static/img/bus.png" alt="Bus de transporte">
+        <!-- <img class="hero-image device-image" src="static/img/alcolock.jpg" alt="Dispositivo AlcoLock"> -->
       </div>
       <button class="primary" data-next>COMENZAR REGISTRO</button>
       <p class="security-note"><span class="shield">🛡</span> Tu seguridad comienza con<br>una decisión responsable.</p>
@@ -30,27 +30,27 @@
 
     <section class="screen" data-step="2">
       <div class="section-title"><h2>Tipo de servicio</h2><p>Selecciona el tipo de servicio que realizas.</p></div>
-      <div class="segmented"><button class="choice selected" data-service="Interprovincial"><img class="ui-icon" src="/static/img/icon-bus.svg" alt="">Interprovincial</button><button class="choice" data-service="Público urbano"><img class="ui-icon" src="/static/img/icon-edificio.svg" alt="">Público urbano</button></div>
+      <div class="segmented"><button class="choice selected" data-service="Interprovincial"><img class="ui-icon" src="static/img/icon-bus.svg" alt="">Interprovincial</button><button class="choice" data-service="Público urbano"><img class="ui-icon" src="static/img/icon-edificio.svg" alt="">Público urbano</button></div>
       <label>Empresa de transporte<select id="empresa"><option value="">Selecciona o ingresa tu empresa</option><option>Transportes Moquegua Turístico SRL</option><option>Empresa de Transporte Regional</option><option>Otra empresa</option></select></label>
       <label>DNI<input id="dni" inputmode="numeric" maxlength="8" placeholder="Ingresa tu DNI"></label>
       <label>Nombres<input id="nombres" maxlength="80" placeholder="Ingresa tus nombres"></label>
       <label>Apellidos<input id="apellidos" maxlength="100" placeholder="Ingresa tus apellidos"></label>
       <label>Celular<div class="phone"><span>+51</span><input id="celular" inputmode="numeric" maxlength="9" placeholder="Ingresa tu número"></div></label>
-      <button class="primary" data-next>CONTINUAR</button><p class="privacy"><img class="ui-icon tiny-icon" src="/static/img/icon-candado.svg" alt=""> Tu información está protegida</p>
+      <button class="primary" data-next>CONTINUAR</button><p class="privacy"><img class="ui-icon tiny-icon" src="static/img/icon-candado.svg" alt=""> Tu información está protegida</p>
     </section>
 
     <section class="screen" data-step="3">
       <div class="section-title"><h2>Datos del conductor</h2><p>Verifica los datos registrados antes de continuar.</p></div>
       <div class="summary-card"><b id="previewName">—</b><span id="previewDni">DNI —</span><span id="previewCompany">—</span></div>
       <label>DNI<input id="dni3" disabled></label><label>Nombres<input id="nombres3" disabled></label><label>Apellidos<input id="apellidos3" disabled></label><label>Celular<input id="celular3" disabled></label>
-      <button class="primary" data-next>CONTINUAR</button><p class="privacy"><img class="ui-icon tiny-icon" src="/static/img/icon-candado.svg" alt=""> Tu información está protegida</p>
+      <button class="primary" data-next>CONTINUAR</button><p class="privacy"><img class="ui-icon tiny-icon" src="static/img/icon-candado.svg" alt=""> Tu información está protegida</p>
     </section>
 
     <section class="screen" data-step="4">
       <div class="section-title"><h2>Vincular dispositivo</h2><p>Tus datos de seguridad se registraron correctamente. Ahora vincula tu dispositivo.</p></div>
       <label>Código del dispositivo<input id="codigoDispositivo" maxlength="30" placeholder="Ej. ALC-0000-0000"></label>
       <label>Placa del vehículo<input id="placa" maxlength="10" placeholder="Ej. ABC-123"></label>
-      <div class="info-box"><img class="ui-icon info-icon" src="/static/img/icon-dispositivo.svg" alt=""><span>El dispositivo opera de forma autónoma con su propio módulo SIM para enviar alertas y realizar llamadas de emergencia.</span></div>
+      <div class="info-box"><img class="ui-icon info-icon" src="static/img/icon-dispositivo.svg" alt=""><span>El dispositivo opera de forma autónoma con su propio módulo SIM para enviar alertas y realizar llamadas de emergencia.</span></div>
       <button class="primary" id="linkDevice">VINCULAR ALCOLOCK</button>
       <p class="hint">ⓘ El código se encuentra en la etiqueta del dispositivo</p>
     </section>
@@ -58,12 +58,12 @@
     <section class="screen center-screen" data-step="5">
       <div class="success-circle">✓</div><h2>¡Dispositivo vinculado!</h2><p>AlcoLock quedó asociado correctamente a tu vehículo y está listo para operar.</p>
       <div class="device-card"><div><span>Dispositivo</span><b id="deviceOut">—</b></div><div><span>Vehículo</span><b id="plateOut">—</b></div><div><span>Estado</span><b class="online">● &nbsp;Conectado correctamente</b></div></div>
-      <button class="primary" data-next>CONTINUAR</button><div class="info-box"><img class="ui-icon info-icon" src="/static/img/icon-dispositivo.svg" alt=""><span>El módulo SIM del dispositivo está configurado para enviar alertas y realizar llamadas de emergencia.</span></div>
+      <button class="primary" data-next>CONTINUAR</button><div class="info-box"><img class="ui-icon info-icon" src="static/img/icon-dispositivo.svg" alt=""><span>El módulo SIM del dispositivo está configurado para enviar alertas y realizar llamadas de emergencia.</span></div>
     </section>
 
     <section class="screen" data-step="6">
       <div class="section-title center"><h2>¿A quién avisamos en caso de emergencia?</h2><p>Registra a las personas responsables que podrán ser contactadas si se detecta una situación de riesgo durante el viaje.</p></div>
-      <div class="contact-types"><button class="type-card" data-type="Familiar"><img class="ui-icon contact-icon" src="/static/img/icon-usuarios.svg" alt=""><span><b>Familiares</b><small>Familiar, amigo o persona de confianza.</small></span><i>›</i></button><button class="type-card" data-type="Empresa"><img class="ui-icon contact-icon" src="/static/img/icon-maletin.svg" alt=""><span><b>Empresa</b><small>Responsable o supervisor de transporte.</small></span><i>›</i></button><button class="type-card" data-type="Emergencia"><img class="ui-icon contact-icon" src="/static/img/icon-telefono.svg" alt=""><span><b>Contacto de emergencia</b><small>Persona o entidad para contacto inmediato.</small></span><i>›</i></button></div>
+      <div class="contact-types"><button class="type-card" data-type="Familiar"><img class="ui-icon contact-icon" src="static/img/icon-usuarios.svg" alt=""><span><b>Familiares</b><small>Familiar, amigo o persona de confianza.</small></span><i>›</i></button><button class="type-card" data-type="Empresa"><img class="ui-icon contact-icon" src="static/img/icon-maletin.svg" alt=""><span><b>Empresa</b><small>Responsable o supervisor de transporte.</small></span><i>›</i></button><button class="type-card" data-type="Emergencia"><img class="ui-icon contact-icon" src="static/img/icon-telefono.svg" alt=""><span><b>Contacto de emergencia</b><small>Persona o entidad para contacto inmediato.</small></span><i>›</i></button></div>
       <button class="primary" data-next>CONTINUAR</button><p class="hint">Podrás editar esta información más adelante.</p>
     </section>
 
